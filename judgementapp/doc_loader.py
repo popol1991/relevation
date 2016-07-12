@@ -45,4 +45,4 @@ class CluewebLoader(Loader):
 		return content
 
 	def get_cashed_url(self, docId):
-		return settings.CLUEWEB_CGI_API + "e=" + docId
+		return settings.CLUEWEB_CGI_API_PAGE + "e=" + docId

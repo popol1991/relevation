@@ -7,6 +7,7 @@ DOCUMENT_TYPE = 'Clueweb'
 DATA_DIR=os.getcwd()+'/documents'
 MAX_USER_PER_QUERY = 2
 CLUEWEB_CGI_API = 'http://boston.lti.cs.cmu.edu/yingkaig/lemur/lemur.cgi?'
+CLUEWEB_CGI_API_PAGE = 'http://boston.lti.cs.cmu.edu/Services/clueweb09_catb/lemur.cgi?'
 
 URL_PREFIX=''
 
